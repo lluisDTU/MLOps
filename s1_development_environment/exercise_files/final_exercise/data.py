@@ -2,6 +2,7 @@ import os
 import numpy as np
 import torch
 import torchvision.transforms as transforms
+Import math as m
 
 # Create a torch dataset using our own data
 class MyDataset(torch.utils.data.Dataset):
