@@ -1,3 +1,15 @@
+"""
+This Python file defines three classes: Encoder, Decoder, and Model. These classes define the architecture of a VAE (variational autoencoder).
+
+Here is a brief overview of each class:
+
+The Encoder class extends PyTorch's nn.Module class and defines the encoder part of the VAE. It has three fully-connected (FC) layers: an input layer, a mean layer, and a variance layer. The input layer takes in data and passes it through a ReLU activation function. The mean and variance layers take the output of the input layer and produce the mean and log variance of the latent representation, respectively. The forward method of this class takes in data and returns the latent representation, the mean, and the log variance. It also has a reparameterization method, which is used to sample from the latent space.
+
+The Decoder class also extends nn.Module and defines the decoder part of the VAE. It has two FC layers: a hidden layer and an output layer. The hidden layer takes in the latent representation and passes it through a ReLU activation function. The output layer takes the output of the hidden layer and produces the reconstructed data, which is passed through a sigmoid activation function. The forward method of this class takes in the latent representation and returns the reconstructed data.
+
+The Model class extends nn.Module and combines the Encoder and Decoder classes to form a complete VAE. It has two member variables: an Encoder instance and a Decoder instance. The forward method of this class takes in data and passes it through the encoder and decoder to produce the reconstructed data, the mean, and the log variance of the latent representation.
+"""
+
 import torch
 import torch.nn as nn
 
