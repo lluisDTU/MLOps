@@ -1,0 +1,22 @@
+[2023-01-09 10:57:38,240][__main__][INFO] - Start training VAE...
+[2023-01-09 10:57:59,692][__main__][INFO] - Epoch 1 complete! Average Loss: 127.15239113405502
+[2023-01-09 10:58:19,176][__main__][INFO] - Epoch 2 complete! Average Loss: 118.3796919575689
+[2023-01-09 10:58:41,949][__main__][INFO] - Epoch 3 complete! Average Loss: 117.4131965891588
+[2023-01-09 10:59:01,703][__main__][INFO] - Epoch 4 complete! Average Loss: 116.35151085658975
+[2023-01-09 10:59:20,742][__main__][INFO] - Epoch 5 complete! Average Loss: 116.54840194730639
+[2023-01-09 10:59:39,635][__main__][INFO] - Epoch 6 complete! Average Loss: 115.95052046634636
+[2023-01-09 10:59:58,145][__main__][INFO] - Epoch 7 complete! Average Loss: 116.14779619332408
+[2023-01-09 11:00:18,208][__main__][INFO] - Epoch 8 complete! Average Loss: 116.38054483799847
+[2023-01-09 11:00:42,017][__main__][INFO] - Epoch 9 complete! Average Loss: 116.08488896192631
+[2023-01-09 11:01:04,670][__main__][INFO] - Epoch 10 complete! Average Loss: 116.34719512035892
+[2023-01-09 11:01:24,954][__main__][INFO] - Epoch 11 complete! Average Loss: 115.83563455259619
+[2023-01-09 11:01:45,867][__main__][INFO] - Epoch 12 complete! Average Loss: 116.00950394836735
+[2023-01-09 11:02:06,197][__main__][INFO] - Epoch 13 complete! Average Loss: 116.16600555965314
+[2023-01-09 11:02:26,523][__main__][INFO] - Epoch 14 complete! Average Loss: 115.65800297600519
+[2023-01-09 11:02:46,548][__main__][INFO] - Epoch 15 complete! Average Loss: 117.22982354620737
+[2023-01-09 11:03:05,639][__main__][INFO] - Epoch 16 complete! Average Loss: 115.91893824274364
+[2023-01-09 11:03:24,820][__main__][INFO] - Epoch 17 complete! Average Loss: 116.18166761787518
+[2023-01-09 11:03:44,440][__main__][INFO] - Epoch 18 complete! Average Loss: 116.03529036169085
+[2023-01-09 11:04:03,703][__main__][INFO] - Epoch 19 complete! Average Loss: 116.38922160859107
+[2023-01-09 11:04:23,495][__main__][INFO] - Epoch 20 complete! Average Loss: 115.95584613375742
+[2023-01-09 11:04:23,495][__main__][INFO] - Finish!!
