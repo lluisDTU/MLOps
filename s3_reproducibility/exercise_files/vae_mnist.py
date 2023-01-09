@@ -3,6 +3,24 @@ Adapted from
 https://github.com/Jackson-Kang/Pytorch-VAE-tutorial/blob/master/01_Variational_AutoEncoder.ipynb
 
 A simple implementation of Gaussian MLP Encoder and Decoder trained on MNIST
+
+This Python file appears to be a script that trains a VAE (variational autoencoder) on the MNIST dataset and then generates reconstructions and samples using the trained model.
+
+Here are the main steps in this script:
+
+The script imports several libraries, including torch and torchvision, which are PyTorch libraries for deep learning and computer vision, respectively. It also imports some custom classes and functions that are defined in other files (Encoder, Decoder, Model, loss_function).
+
+The script defines several hyperparameters for the model and the training process, such as the batch size, the learning rate, and the number of epochs.
+
+The script loads the MNIST dataset using the MNIST class from torchvision, and applies some transformations to the data using the transforms module. The transformed data is then split into training and test sets and wrapped in PyTorch's DataLoader class for efficient loading and batching during training.
+
+The script creates instances of the Encoder, Decoder, and Model classes, which are used to define the VAE architecture. The model is then moved to the GPU (if available) using the to method.
+
+The script defines the loss function for the VAE, which is a combination of the binary cross-entropy loss and the KL divergence loss. It then creates an Adam optimizer and uses it to train the VAE on the training data for a specified number of epochs.
+
+After training is complete, the script saves the trained model to a file.
+
+The script enters "evaluation" mode and generates reconstructions of the test data using the trained model. It also generates samples from the model by sampling from the latent space and decoding the samples using the decoder.
 """
 import os
 import torch
